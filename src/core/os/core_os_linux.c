@@ -1,5 +1,6 @@
 #include "core_os.h"
 
+#define __USE_MISC // for MAP_ANONYMOUS
 #include <sys/mman.h>
 #include <sys/resource.h>
 #include <unistd.h>
